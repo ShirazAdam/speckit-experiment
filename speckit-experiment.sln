@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "speckit-experiment", "speckit-experiment", "{1A67C0D6-E055-2ED3-142B-9B67CD10B492}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{466FF7CA-2947-0A5C-D4D8-1A107D5F134C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApi", "speckit-experiment\backend\ToDoApi\ToDoApi.csproj", "{9E261088-DC20-2679-FD88-2A69D7283D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E261088-DC20-2679-FD88-2A69D7283D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E261088-DC20-2679-FD88-2A69D7283D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E261088-DC20-2679-FD88-2A69D7283D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E261088-DC20-2679-FD88-2A69D7283D39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{466FF7CA-2947-0A5C-D4D8-1A107D5F134C} = {1A67C0D6-E055-2ED3-142B-9B67CD10B492}
+		{9E261088-DC20-2679-FD88-2A69D7283D39} = {466FF7CA-2947-0A5C-D4D8-1A107D5F134C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCF4870E-EC1F-47A0-8A01-A723ADCF46B3}
+	EndGlobalSection
+EndGlobal
