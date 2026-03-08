@@ -115,7 +115,7 @@ dotnet test
 ## 📁 Project Structure
 
 ```
-zero/
+speckit-experiment/
 ├── README.md                      ← START HERE
 ├── ARCHITECTURE.md                ← Design & principles
 ├── DEVELOPMENT.md                 ← Setup guide

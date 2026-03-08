@@ -74,7 +74,7 @@ dotnet test
 ## 📁 Project Structure
 
 ```
-zero/
+speckit-experiment/
 ├── backend/ToDoApi/              # REST API
 ├── backend/ToDoApi.Tests/        # Unit tests
 ├── frontend/                     # Vue + TypeScript SPA

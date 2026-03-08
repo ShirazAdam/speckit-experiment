@@ -8,39 +8,39 @@
 ## Initial Setup
 
 ### Backend Setup
-```bash
-cd zero/backend/ToDoApi
+```powershell
+cd speckit-experiment/backend/ToDoApi
 dotnet restore
 dotnet build
 ```
 
 ### Frontend Setup
-```bash
-cd zero/frontend
+```powershell
+cd speckit-experiment/frontend
 npm install
 ```
 
 ## Development Workflow
 
 ### Starting the Backend
-```bash
-cd zero/backend/ToDoApi
+```powershell
+cd speckit-experiment/backend/ToDoApi
 dotnet run
 ```
 - API runs on `https://localhost:5001`
 - OpenAPI docs at `https://localhost:5001/openapi/v1.json`
 
 ### Starting the Frontend
-```bash
-cd zero/frontend
+```powershell
+cd speckit-experiment/frontend
 npm run dev
 ```
 - Dev server at `http://localhost:5173`
 - HMR enabled for hot reloads
 
 ### Running Tests
-```bash
-cd zero/backend/ToDoApi.Tests
+```powershell
+cd speckit-experiment/backend/ToDoApi.Tests
 dotnet test --logger="console;verbosity=detailed"
 ```
 
@@ -69,7 +69,7 @@ dotnet test --logger="console;verbosity=detailed"
 ## Troubleshooting
 
 ### Backend won't start
-```bash
+```powershell
 # Check port availability (5001)
 # Clear build cache
 rm -r bin obj
@@ -78,7 +78,7 @@ dotnet build
 ```
 
 ### Frontend dev server won't start
-```bash
+```powershell
 # Clear node_modules
 rm -r node_modules package-lock.json
 npm install
@@ -92,7 +92,7 @@ var allowOrigins = new[] { "http://localhost:5173" };
 ```
 
 ### TypeScript errors in frontend
-```bash
+```powershell
 # Rebuild type definitions
 npm run build
 # Check tsconfig.json for strict mode settings
@@ -101,7 +101,7 @@ npm run build
 ## Deployment
 
 ### Build for Production
-```bash
+```powershell
 # Backend
 cd backend/ToDoApi
 dotnet publish -c Release

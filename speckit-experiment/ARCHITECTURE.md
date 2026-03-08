@@ -197,7 +197,7 @@ Recommended: **Vitest** + **Vue Test Utils**
 ## Project Structure
 
 ```
-zero/
+speckit-experiment/
 ├── backend/
 │   ├── ToDoApi/
 │   │   ├── Program.cs              # DI & middleware config
