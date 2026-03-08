@@ -9,14 +9,14 @@ A full-stack to-do application built with **C# ASP.NET Core** and **Vue 3 + Type
 - Node.js 18+
 
 ### Run Backend
-```bash
+```powershell
 cd backend/ToDoApi
 dotnet run
 # Runs on https://localhost:5001
 ```
 
 ### Run Frontend (new terminal)
-```bash
+```powershell
 cd frontend
 npm install
 npm run dev
@@ -24,7 +24,7 @@ npm run dev
 ```
 
 ### Run Tests
-```bash
+```powershell
 cd backend/ToDoApi.Tests
 dotnet test
 # Expected: ✅ 4/4 tests pass
@@ -114,7 +114,7 @@ Test summary: total: 4, failed: 0, succeeded: 4, skipped: 0
 - Add database layer (Entity Framework Core)
 - Implement authentication (JWT)
 - Add frontend unit tests (Vitest)
-- Containerize with Docker
+- Containerise with Docker
 - Deploy to Azure/Cloud
 
 ---
