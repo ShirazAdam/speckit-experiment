@@ -32,8 +32,8 @@ dotnet test
 
 ## 📚 Documentation
 
-- **[Architecture & Best Practices](./ARCHITECTURE.md)** - SOLID principles, code quality, UX design
-- **[Development Setup Guide](./DEVELOPMENT.md)** - Local setup, tools, troubleshooting
+- **[Architecture & Best Practices](./speckit-experiment/ARCHITECTURE.md)** - SOLID principles, code quality, UX design
+- **[Development Setup Guide](./speckit-experiment/DEVELOPMENT.md)** - Local setup, tools, troubleshooting
 
 ## ✨ Features
 
@@ -87,7 +87,7 @@ speckit-experiment/
 
 ```
 ┌─────────────┐      HTTP      ┌──────────────┐
-│  Vue UI     │─────────────→ │ ASP.NET Core │
+│  Vue UI     │─────────────→  │ ASP.NET Core │
 │ (Frontend)  │←─────────────  │  (Backend)   │
 └─────────────┘    JSON        └──────────────┘
                                        │
